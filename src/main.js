@@ -11,7 +11,7 @@ const router = createRouter({
             path: '',
             props: {
                 badge: '',
-                headline: '',
+                headline: 'Ich überbringe Ihre Wertsachen schnell und zuverlässig',
                 uvp: '',
                 cta: '',
                 ctaFooter: '',
