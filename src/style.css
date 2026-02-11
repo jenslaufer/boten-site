@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@import "@fontsource-variable/merriweather";
+@import "@fontsource-variable/montserrat";
+
+@theme {
+  --font-sans:
+    "Montserrat", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  --font-serif:
+    "Merriweather", ui-serif, Georgia, Cambria, "Times New Roman", Times,
+    "Noto Serif";
+  --color-brand0: #6847e0;
+  --color-brand1: #795cf5;
+  --color-brand2: #5b3dd1;
+}

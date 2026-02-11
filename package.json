@@ -1,0 +1,24 @@
+{
+  "name": "boten-site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/merriweather": "^5.2.6",
+    "@fontsource-variable/montserrat": "^5.2.8",
+    "@solytics/vue-auth-widgets": "github:jenslaufer/vue-auth-widgets#3.0.0",
+    "@tailwindcss/vite": "^4.1.11",
+    "@unhead/vue": "^2.0.19",
+    "vue": "^3.5.24",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.2.4"
+  }
+}
