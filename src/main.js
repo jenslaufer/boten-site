@@ -10,12 +10,12 @@ const router = createRouter({
         {
             path: '',
             props: {
-                badge: '',
-                headline: 'Ich überbringe Ihre Wertsachen schnell und zuverlässig',
-                uvp: '',
-                cta: '',
+                badge: 'Schnell, zuverlässig und sicher',
+                headline: 'Ihre Wertgegenstände – in sicheren Händen schnell von A nach B',
+                uvp: 'Wertgegenstände sicher von A nach B bringen? Ich erledige das schnell und zuverlässig für Sie – und behüte Ihr Eigentum wie meinen eigenen Besitz',
+                cta: 'Jetzt 10 minütige Beratung buchen',
                 ctaFooter: '',
-                productName: '',
+                productName: 'Jens Laufer Botendienste',
                 url: ''
             },
             component: () => import('./components/Home.vue'),
